@@ -9,18 +9,33 @@
 		document.write("<br><br><br>");
 	}
 
+
+	function imprimir(frase){
+
+		document.write(frase)
+		saltarLinea();
+	}
+
+
+
 	var anho = 2025;
-	var saltolinea = "<br><br><br>"
+	
+	imprimir("hola amigos");
 
-	document.write("Juan tiene: " + (anho-2000) + " años");
+	
 
-	saltarLinea();
+	//este codigo calcula las edades de Juan, Pedro y Carlos
 
-	document.write("Pedro tiene: " + (anho-1995) + " años");
+	imprimir("Juan tiene: " + (anho-2000) + " años");
+
+	
+
+	imprimir("Pedro tiene: " + (anho-1995) + " años");
 	
 	anho = 2030
 
-	saltarLinea();
-	document.write("Carlos tiene: " + (anho-2005) + " años");
+	
+
+	imprimir("Carlos tiene: " + (anho-2005) + " años");
 
 </script>
